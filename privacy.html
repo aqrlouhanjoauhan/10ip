@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>隐私权政策 - 免费VPN Proxy</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.7;
+      color: #334155;
+      background: #f8fafc;
+      padding: 30px 16px;
+      margin: 0;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 36px 30px;
+      border-radius: 12px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      border: 1px solid #e2e8f0;
+    }
+    h1 { font-size: 24px; color: #0f172a; margin-bottom: 8px; }
+    .updated { font-size: 13px; color: #64748b; margin-bottom: 24px; }
+    h2 { font-size: 17px; color: #0f172a; margin-top: 24px; margin-bottom: 10px; border-bottom: 1px solid #f1f5f9; padding-bottom: 6px; }
+    p, ul { font-size: 14px; margin-bottom: 12px; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>隐私权政策 (Privacy Policy)</h1>
+    <div class="updated">最后更新时间：2026年10月</div>
+
+    <p>「免费VPN Proxy - 赠10个海外独立IP与住宅代理」（以下简称“本扩展”）高度重视用户的个人隐私与数据安全。本隐私政策旨在向您说明本扩展如何处理和保护您的信息。</p>
+
+    <h2>1. 数据收集声明（零数据收集承诺）</h2>
+    <p><strong>我们承诺绝不收集、记录、传输或分享您的任何个人数据或隐私信息。</strong></p>
+    <ul>
+      <li>我们不收集您的姓名、电子邮箱、手机号等个人身份信息。</li>
+      <li>我们不记录或监控您的浏览历史、访问网址、搜索关键词或网络活动。</li>
+      <li>我们不收集或储存您的表单输入、按键记录或敏感账户凭证。</li>
+    </ul>
+
+    <h2>2. 本地存储 (Local Storage) 的使用</h2>
+    <p>为了保证代理工具的正常运行，以下数据仅在您的设备本地浏览器沙盒（<code>chrome.storage.local</code>）中保存：</p>
+    <ul>
+      <li>您自行配置的代理服务器地址与端口；</li>
+      <li>您所填写的 Webshare API Token 或代理凭证（仅用于本地向代理服务商发起鉴权与获取节点列表）；</li>
+      <li>当前的代理开关状态与选中的节点记录。</li>
+    </ul>
+    <p>上述所有配置数据均保留在您的本地设备中，绝不会上传至任何第三方服务器或由开发者运营的服务器。</p>
+
+    <h2>3. 权限使用说明</h2>
+    <ul>
+      <li><strong>proxy</strong>：仅用于根据您选择的节点在本地接管浏览器的网络转发规则。</li>
+      <li><strong>privacy</strong>：仅用于启用 <code>disable_non_proxied_udp</code> 策略，阻断 WebRTC 穿透泄漏您的公网真实 IP。</li>
+      <li><strong>webRequest / webRequestAuthProvider</strong>：仅用于静默向代理服务器提供您本地配置的代理账号与密码，免除频繁弹窗。</li>
+      <li><strong>storage</strong>：仅用于在本地保存您的节点与运行偏好。</li>
+    </ul>
+
+    <h2>4. 第三方服务</h2>
+    <p>当您使用 Webshare 提供的代理服务时，网络流量将经过 Webshare 的代理节点，其数据处理规则受 Webshare 官方隐私政策约束。本扩展本身不设立任何中继服务器或流量拦截代理。</p>
+
+    <h2>5. 政策变更与联系方式</h2>
+    <p>如本政策有任何更新，将在此页面直接发布。如对本政策有任何疑问，可通过扩展商店支持页面联系我们。</p>
+  </div>
+</body>
+</html>
