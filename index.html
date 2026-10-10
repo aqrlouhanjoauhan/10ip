@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>免费海外代理IP使用指南</title>
+  <style>
+    :root {
+      --primary: #00ba7c;
+      --primary-hover: #009664;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --border: #e2e8f0;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 24px 16px 60px;
+    }
+    .container { max-width: 640px; margin: 0 auto; }
+    .hero {
+      background: #ffffff;
+      border: 2px solid var(--primary);
+      border-radius: 14px;
+      padding: 24px 20px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .tag {
+      display: inline-block;
+      background: #dcfce7;
+      color: #15803d;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 8px;
+    }
+    h1 { font-size: 22px; font-weight: 800; margin-bottom: 6px; }
+    .hero-desc { color: var(--muted); font-size: 14px; margin-bottom: 16px; }
+    .btn-main {
+      display: inline-block;
+      background: var(--primary);
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 700;
+      padding: 10px 24px;
+      border-radius: 8px;
+    }
+    .btn-main:hover { background: var(--primary-hover); }
+    .steps { display: flex; flex-direction: column; gap: 16px; }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 20px;
+    }
+    .step-title {
+      font-size: 16px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    .step-num {
+      background: var(--primary);
+      color: #fff;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .text-list { padding-left: 18px; color: #334155; font-size: 14px; }
+    .text-list li { margin-bottom: 6px; }
+    .code-sample {
+      background: #0f172a;
+      color: #38bdf8;
+      padding: 10px 12px;
+      border-radius: 6px;
+      font-family: monospace;
+      font-size: 12px;
+      margin: 10px 0;
+      word-break: break-all;
+    }
+
+    /* 快捷配置区域 */
+    .config-box {
+      background: #f1f5f9;
+      border-radius: 8px;
+      padding: 14px;
+      margin-top: 14px;
+    }
+    .config-label {
+      font-size: 13px;
+      font-weight: 700;
+      color: #334155;
+      margin-bottom: 4px;
+      display: block;
+    }
+    .config-input {
+      width: 100%;
+      padding: 9px 10px;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      font-size: 13px;
+      font-family: monospace;
+      outline: none;
+      margin-bottom: 12px;
+      background: #ffffff;
+    }
+    .config-input:focus { border-color: var(--primary); }
+    .btn-save {
+      width: 100%;
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      padding: 10px;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .btn-save:hover { background: var(--primary-hover); }
+    .tip-msg { font-size: 13px; margin-top: 10px; text-align: center; }
+
+    .img-box {
+      margin-top: 12px;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      background: #f8fafc;
+    }
+    .img-box img { width: 100%; height: auto; display: block; }
+    .img-placeholder {
+      padding: 24px 16px;
+      text-align: center;
+      color: #94a3b8;
+      font-size: 13px;
+      border: 2px dashed #cbd5e1;
+      border-radius: 8px;
+    }
+    .img-placeholder code {
+      display: inline-block;
+      margin-top: 4px;
+      color: #0f172a;
+      background: #e2e8f0;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    .faq-item {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 12px;
+      margin-bottom: 8px;
+      font-size: 13px;
+    }
+    footer { text-align: center; margin-top: 24px; color: var(--muted); font-size: 12px; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="tag">🎁 免费福利 · 无需绑卡</span>
+      <h1>领取 10 个免费海外代理 IP</h1>
+      <p class="hero-desc">输入邮箱即可领取，包含每月 1GB 免费流量。</p>
+      <a href="https://www.webshare.io/?referral_code=m9pivd0kdu38" target="_blank" class="btn-main">
+        前往免费注册领取 →
+      </a>
+    </header>
+
+    <div class="steps">
+
+      <!-- 步骤 1 -->
+      <section class="card">
+        <h2 class="step-title"><span class="step-num">1</span> 注册账号</h2>
+        <ol class="text-list">
+          <li>点击上方按钮进入注册页；</li>
+          <li>输入邮箱与密码完成注册；</li>
+          <li>进入后台，系统自动派发 10 个免费海外 IP。</li>
+        </ol>
+
+        <div class="img-box">
+          <img src="img/step1.png" alt="注册领取成功" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+          <div class="img-placeholder" style="display: none;">
+            <div>📷 注册成功弹窗截图</div>
+            <code>图片路径: img/step1.png</code>
+          </div>
+        </div>
+      </section>
+
+      <!-- 步骤 2 -->
+      <section class="card">
+        <h2 class="step-title"><span class="step-num">2</span> 配置代理地址与 API Token</h2>
+        
+        <ol class="text-list">
+          <li><strong>复制单条地址（单节点直连）：</strong>在后台弹窗或列表中复制整行测试命令（格式类似如下），贴入下方第一个输入框：</li>
+        </ol>
+        <div class="code-sample">curl --proxy "http://******:******@***.***.***.***:****/" https://ipv4.webshare.io/</div>
+
+        <ol class="text-list" start="2">
+          <li><strong>获取 API Token（用于一键同步全部节点，推荐）：</strong>在 Webshare 控制台左侧菜单点击 <strong>Integrations</strong>（或 API 选项），点击复制里面的 <strong>API Token / Key</strong>，贴入下方第二个输入框。插件将自动拉取这 10 个节点（后续升级充值也会自动拉取所有付费节点）。</li>
+        </ol>
+
+        <div class="img-box">
+          <img src="img/step2.png" alt="获取 API Token 截图" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+          <div class="img-placeholder" style="display: none;">
+            <div>📷 左侧菜单 Integrations 获取 API Token 页面截图</div>
+            <code>图片路径: img/step2.png</code>
+          </div>
+        </div>
+
+        <!-- 步骤2 输入与保存区域 -->
+        <div class="config-box">
+          <label class="config-label" for="proxyInput">1. 代理地址命令（必填）</label>
+          <input type="text" id="proxyInput" class="config-input" placeholder='直接粘贴 curl --proxy "http://..." 整行内容'>
+
+          <label class="config-label" for="tokenInput">2. Webshare API Token（用于同步全部节点）</label>
+          <input type="password" id="tokenInput" class="config-input" placeholder="粘贴从 Integrations 复制的 API Token">
+
+          <button id="saveBtn" class="btn-save">保存并同步节点至插件</button>
+          <div id="saveTip" class="tip-msg" style="display: none;"></div>
+        </div>
+      </section>
+
+      <!-- 步骤 3 -->
+      <section class="card">
+        <h2 class="step-title"><span class="step-num">3</span> 常见疑问</h2>
+        <div class="faq-item">
+          <strong>免费额度可以用多久？</strong>
+          <p style="color: #475569; margin-top: 2px;">永久免费。每月自动补充 1GB 免费流量，日常测试、轻量访问不超量无需花钱。</p>
+        </div>
+        <div class="faq-item">
+          <strong>流量用完怎么升级？</strong>
+          <p style="color: #475569; margin-top: 2px;">在后台左侧点击 <strong>Plans & Pricing</strong> 升级套餐，支持常规卡和 PayPal 按月付费，随时可取消。</p>
+        </div>
+
+        <div class="img-box">
+          <img src="img/step3.png" alt="升级套餐页面" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+          <div class="img-placeholder" style="display: none;">
+            <div>📷 Plans & Pricing 套餐升级页面截图</div>
+            <code>图片路径: img/step3.png</code>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <footer>
+      <p>💡 工具纯本地运行，不上传任何密码与隐私数据。</p>
+    </footer>
+
+  </div>
+
+  <script src="help.js"></script>
+</body>
+</html>
