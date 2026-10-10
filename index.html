@@ -56,19 +56,24 @@
       flex-wrap: wrap;
     }
     .btn-main {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
       background: var(--primary);
       color: #ffffff;
       text-decoration: none;
       font-size: 15px;
       font-weight: 700;
-      padding: 12px 26px;
+      padding: 12px 24px;
       border-radius: 8px;
       transition: background 0.2s;
     }
     .btn-main:hover { background: var(--primary-hover); }
     .btn-sub {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
       background: #f1f5f9;
       color: #334155;
       text-decoration: none;
@@ -77,6 +82,7 @@
       padding: 12px 20px;
       border-radius: 8px;
       border: 1px solid var(--border);
+      transition: background 0.2s;
     }
     .btn-sub:hover { background: #e2e8f0; }
 
@@ -196,8 +202,11 @@
       <h1>免费领取 10 个海外独立代理 IP</h1>
       <p class="hero-desc">输入邮箱即可领取专属节点，每月自动送 1GB 免费流量，一键切换极速畅连。</p>
       <div class="hero-btns">
-        <a href="https://www.webshare.io/?referral_code=m9pivd0kdu38" target="_blank" class="btn-main">
-          前往免费领取
+        <a href="https://chromewebstore.google.com/detail/faikoldihedieoeacjakhgjhbnogkhjm" target="_blank" class="btn-main">
+          ⚡ 添加到 Chrome 浏览器
+        </a>
+        <a href="https://www.webshare.io/?referral_code=m9pivd0kdu38" target="_blank" class="btn-sub">
+          前往免费领取 10 个 IP →
         </a>
       </div>
     </header>
@@ -223,7 +232,7 @@
       </div>
     </div>
 
-    <!-- 详细使用指引（去掉了复制单条地址，聚焦 API Token 自动同步） -->
+    <!-- 详细使用指引 -->
     <h2 class="section-title">📖 极速配置指南</h2>
     <div class="steps">
 
@@ -231,7 +240,7 @@
       <section class="card">
         <h2 class="step-title"><span class="step-num">1</span> 注册并领取 10 个免费 IP</h2>
         <ol class="text-list">
-          <li>点击上方领取按钮打开注册页面；</li>
+          <li>点击上方“前往免费领取”按钮打开注册页面；</li>
           <li>输入常用邮箱与密码完成注册；</li>
           <li>注册成功后进入后台控制台，系统将全自动分发 10 个海外独立 IP 节点。</li>
         </ol>
@@ -251,8 +260,9 @@
         <ol class="text-list">
           <li>在 Webshare 控制台左侧菜单栏，点击进入 <strong>Integrations</strong> 页面；</li>
           <li>找到 <strong>API Token / Key</strong> 区域，点击复制你的专属 Token；</li>
-          <li>打开浏览器中的本扩展插件，进入配置项粘贴该 Token，点击保存；</li>
-          <li>扩展将自动抓取并罗列出这 10 个节点的国家与地址，后续无论是免费节点还是新购住宅 IP 均可一键实时刷新同步。</li>
+          <li>若尚未安装扩展，请先前往 <a href="https://chromewebstore.google.com/detail/faikoldihedieoeacjakhgjhbnogkhjm" target="_blank" style="color: var(--primary); font-weight: 600;">Chrome 应用商店安装扩展</a>；</li>
+          <li>打开浏览器右上角本扩展，进入配置项粘贴该 Token 并点击保存；</li>
+          <li>扩展将自动抓取这 10 个节点的国家与地址，无论是免费节点还是新购住宅 IP 均支持一键实时刷新同步。</li>
         </ol>
 
         <div class="img-box">
@@ -290,6 +300,8 @@
     <!-- 页脚与版权 -->
     <footer>
       <div class="footer-links">
+        <a href="https://chromewebstore.google.com/detail/faikoldihedieoeacjakhgjhbnogkhjm" target="_blank">安装扩展</a>
+        <span>·</span>
         <a href="privacy.html" target="_blank">隐私权政策 (Privacy Policy)</a>
         <span>·</span>
         <a href="https://www.webshare.io/?referral_code=m9pivd0kdu38" target="_blank">节点后台</a>
