@@ -226,18 +226,6 @@
             <code>图片路径: step2.png</code>
           </div>
         </div>
-
-        <!-- 步骤2 输入与保存区域 -->
-        <div class="config-box">
-          <label class="config-label" for="proxyInput">1. 代理地址命令（必填）</label>
-          <input type="text" id="proxyInput" class="config-input" placeholder='直接粘贴 curl --proxy "http://..." 整行内容'>
-
-          <label class="config-label" for="tokenInput">2. Webshare API Token（用于同步全部节点）</label>
-          <input type="password" id="tokenInput" class="config-input" placeholder="粘贴从 Integrations 复制的 API Token">
-
-          <button id="saveBtn" class="btn-save">保存并同步节点至插件</button>
-          <div id="saveTip" class="tip-msg" style="display: none;"></div>
-        </div>
       </section>
 
       <!-- 步骤 3 -->
@@ -269,6 +257,5 @@
 
   </div>
 
-  <script src="help.js"></script>
 </body>
 </html>
